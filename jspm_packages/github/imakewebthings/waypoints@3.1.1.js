@@ -1,0 +1,1 @@
+module.exports = require("github:imakewebthings/waypoints@3.1.1/lib/noframework.waypoints.min");

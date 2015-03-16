@@ -1,0 +1,38 @@
+{
+  "name": "opensourcenola.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryan Joseph",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.2.1",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^4.0.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-html-extend": "^1.0.0",
+    "gulp-nunjucks-render": "^0.2.1",
+    "gulp-run": "^1.6.6",
+    "gulp-sass": "^1.3.3",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-wrap": "^0.11.0",
+    "jspm": "^0.14.0"
+  },
+  "jspm": {
+    "directories": {
+      "lib": "src/js",
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "bootstrap": "github:twbs/bootstrap@^3.3.2",
+      "font-awesome": "npm:font-awesome@^4.3.0",
+      "imakewebthings/waypoints": "github:imakewebthings/waypoints@^3.1.1",
+      "jquery": "github:components/jquery@^2.1.3",
+      "twbs/bootstrap-sass": "github:twbs/bootstrap-sass@^3.3.3"
+    }
+  }
+}
