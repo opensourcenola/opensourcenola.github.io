@@ -25,10 +25,10 @@ gulp.task('build-sass', function() {
 });
 
 gulp.task('build-js', function() {
-  run('jspm bundle-sfx src/js/main dest/js/app.js  --inject --skip-source-maps').exec();
+  run('jspm bundle-sfx src/js/main dest/js/app.js').exec();
 });
 
-gulp.task('build', ['build-js', 'build-sass', 'build-html']);
+gulp.task('build', ['build-sass', 'build-html']);
 
 gulp.task('serve', ['build'], function(done) {
   browserSync({
